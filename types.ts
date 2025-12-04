@@ -14,9 +14,3 @@ export interface MenuItem {
 export interface CartItem extends MenuItem {
   quantity: number;
 }
-
-export interface ChatMessage {
-  role: 'user' | 'model';
-  text: string;
-  isLoading?: boolean;
-}
