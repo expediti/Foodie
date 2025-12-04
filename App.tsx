@@ -99,7 +99,7 @@ export default function App() {
       {/* Hero Section */}
       <header className="pt-32 pb-12 px-4 sm:px-6 relative overflow-hidden">
         {/* Decorative background elements */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-warm-100/50 rounded-full blur-3xl -z-10 opacity-60"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-warm-100/50 rounded-full blur-3xl -z-10 opacity-60 pointer-events-none"></div>
 
         <div className="container mx-auto text-center max-w-3xl relative z-10">
            <span className="inline-block py-1 px-3 rounded-full bg-warm-100 text-warm-700 font-bold tracking-wider text-xs uppercase mb-6 border border-warm-200">
